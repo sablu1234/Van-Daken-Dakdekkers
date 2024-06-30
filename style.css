@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+p{
+    font-family: "Outfit", sans-serif;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 700 !important;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+/* head area srarted */
+
+/* nav area started */
+.nav_top {
+    background-color: #2B65EB;
+    padding: 18px 0;
+}
+.nav_top p{
+    margin: 0;
+}
+.logo_area {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: bolder;
+}
+.head_area {
+    margin: 23px 0;
+}
+.nav_menu li a {
+    font-size: 18px;
+    line-height: 28px;
+    margin-right: 30x;
+}
+.nav_menu li {
+    margin-right: 30px;
+}
+.ul_btn a {
+    padding: 15px 22px !important;
+    border-radius: 8px;
+}
+.head_bg{
+    background: url(/assets/img/header\ bg.png) rgba(87, 87, 87, .6);
+    /* height: 100vh; */
+    background-blend-mode: multiply;
+    position: relative;
+}
+.head_bottom_right {
+    padding-left: 4%;
+}
+.head_bottom_right .tar_img {
+    position: absolute;
+    width: 10%;
+    left: 0;
+    top: 0;
+}
+.head_bottom_right_div .roofing {
+    background: url(/assets/img/paragraph\ bg.png) no-repeat;
+    background-size: contain;
+    margin: 0;
+    padding-left: 62px;
+    font-size: 21px;
+    line-height: 23px;
+    color: white;
+    font-weight: 800;
+}
+.head_bottom_right_div h3 {
+    font-weight: 700;
+    line-height: 82px;
+    text-align: left;
+    margin: 18px 0;
+}
+.head_bottom_right_div p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    margin: 12px 0;
+    width: 80%;
+}
+.btn_area {
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn_area button {
+    padding: 16px 22px;
+    width: 145px;
+    font-weight: 800;
+}
+.btn_area img {
+    width: 128px;
+    margin: 5px 21px;
+}
+.btn_area h6 {
+    font-size: 18px;
+    color: white;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+.form_area {
+    margin: 11%;
+    border-radius: 10px;
+}
+.form_area img {
+    width: 100%;
+    max-height: 136px;
+}
+.form_area img {
+    width: 100%;
+    max-height: 136px;
+}
+.input_area {
+    padding: 42px;
+    display: flex;
+    justify-content: center;
+}
+.input_area button {
+    width: 94%;
+}
+.head_bottom_right_2{
+    position: relative;
+}
+.head_bottom_right_2 .img_tar {
+    background-size: contain;
+    width: 14%;
+    display: flex;
+}
+/* head area end */
+
+/* about area started */
+#about_us{
+    background: url(/assets/img/aboutbg.png);
+}
+.about_area{
+    padding: 114px 0;
+}
+.about_left {
+    position: relative;
+}
+.about_left button {
+    position: absolute;
+    width: 46%;
+    right: 0;
+    bottom: 0;
+    height: 13%;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+}
+/* about right area */
+.about_right h6 {
+    background: url(/assets/img/about\ tringle\ 1.png) no-repeat;
+    padding-left: 63px;
+    background-size: contain;
+    font-size: 19px;
+    line-height: 25px;
+    margin: 18px 0;
+}
+.about_right h2 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 800;
+}
+.about_right p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #515151;
+}
+.icon_area {
+    display: flex;
+}
+.img_1 img {
+    width: 41px;
+    height: 36px;
+}
+.img_1 span {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 800;
+}
+.img_1 {
+    border-left: 5px solid #2B65EB;
+    margin-left: 24px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 3px;
+    padding: 6px 20px;
+    width: 238px;
+    margin-top: 5px;
+}
+/* services area */
+section.services {
+    background: #F5F7FF;
+    padding: 3vmax 0;
+}
+.badge_what {
+    display: flex;
+    justify-content: center;
+}
+.badge_what h6 {
+    font-size: 18px;
+    line-height: 28px;
+    background: url(/assets/img/about\ tringle\ 1.png) no-repeat;
+    background-size: contain;
+    padding-left: 68px;
+    display: flex;
+}
+.services_area h1 {
+    font-size: 54px;
+    line-height: 64px;
+    text-align: center;
+    font-weight: 800;
+}
+.services_area p {
+    width: 50%;
+    color: #666666;
+}
+.box_area img {
+    width: 50px;
+}
+.box_area h5 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 900;
+}
+.box_area p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #515151;
+}
+.box_area a {
+    font-size: 16px;
+    line-height: 28px;
+}
+.box_area {
+    box-shadow: 0px 0px 6px -5px;
+    padding: 38px 1vw;
+    background: #FFFFFF;
+    border-radius: 50px 0px 50px 0px;
+    margin-top: 3vmax;
+}
+.box_areas button {
+    width: 179px;
+}
+/* booking area started */
+.booking {
+    background: url(/assets/img/booking\ bg1.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.book_area {
+    margin: 8%;
+}
+.book_info {
+    border-radius: 8px;
+    background: white;
+}
+.booking_info_left {
+    position: relative;
+    background: url(/assets/img/booking\ left1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+}
+.booking_info_left h6 {
+    background: url("/assets/img/booking3.png") no-repeat;
+    padding-left: 37px;
+    margin: 17px 0px;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+.booking_info_left h3 {
+    font-size: 38px;
+    line-height: 48px;
+}
+.booking_info_left p {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+}
+/* booking right */
+.booking_info_right form {
+    padding: 48px;
+}
+.booking_info_right button {
+    font-size: 1.6rem;
+}
+.booking_info_right button:hover {
+    background: black;
+}
+.booking_info_right .form-select {
+    background-position: left 10.5rem center;
+}
+/* Delivering area started */
+section#Delivering {
+    margin: 5.2rem 0;
+}
+#Delivering .container .h6_1 {
+    background: url(/assets/img/about\ tringle\ 1.png) no-repeat;
+    display: inline-block;
+    background-size: contain;
+    padding: 0 6rem;
+    width: 27rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+#Delivering .container h1 {
+    font-size: 54px;
+    line-height: 64px;
+    text-align: center;
+}
+#Delivering .container p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 50%;
+}
+.delivering_1img {
+    margin-bottom: 7rem;
+}
+.delivering_1 img {
+    background-size: contain;
+    width: 5rem;
+    height: 7rem;
+}
+.delivering_1r {
+    padding-left: 2rem;
+}
+.delivering_1r h6 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.delivering_1r p {
+    width: 90% !important;
+    text-align: left !important;
+}
+.delicery_area button {
+    width: 16rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: auto;
+}
+/* Achievement area started */
+#Achievement {
+    background: url(/assets/img/achivement\ bg.png) no-repeat rgba(43, 101, 235, .76);
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    padding: 6rem 0;
+}
+.Achievement_left h6 {
+    background: url(/assets/img/booking3.png) no-repeat;
+    font-size: 1.8rem;
+    font-weight: 2.8rem !important;
+    padding-left: 4rem;
+}
+.Achievement_left h1 {
+    font-size: 5.4rem;
+    color: white;
+}
+.Achievement_left p {
+    color: #FFFFFF;
+}
+.Achievement_left button {
+    padding: 1.6rem 2.2rem;
+    font-size: 1.8rem;
+    font-weight: 2.8rem;
+}
+.top_icon {
+    background: white;
+    padding: 2rem 0;
+    margin: 2rem;
+    border-radius: 10px;
+}
+.top_icon img {
+    width: 6.6rem;
+    height: 6.6rem;
+}
+.top_icon h3 {
+    text-align: center;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    font-weight: bold;
+}
+.top_icon p {
+    color: #515151;
+    text-align: center;
+}
+.bottom_icon{
+    position: relative;
+}
+.bottom_icon::before{
+    background: url(/assets/img/achivement\ icon\ tag.png) no-repeat;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+/* process area started */
+#process{
+    background: url(/assets/img/process\ bg.png) no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.process_working {
+    display: flex;
+    justify-content: center;
+}
+.process_working h6 {
+    background: url(/assets/img/about\ tringle\ 1.png) no-repeat;
+    padding-left: 4rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+.process_area h1 {
+    font-size: 5.4rem;
+    line-height: 6.4rem;
+    text-align: center;
+}
+.card_area {
+    border: none;
+    background: unset;
+    margin: 1rem;
+}
+.card_area h5 {
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    font-weight: 800;
+}
+.card_area p {
+    font-size: 1.6rem;
+    color: #515151;
+}
+.img_2 img {
+    padding-bottom: 3rem;
+}
+/* reviews area started */
+#reviews{
+    background: url(/assets/img/reviews\ bg.png) rgba(43, 101, 235, .76);
+    width: 100%;
+    height: 100%;
+    background-blend-mode: multiply;
+}
+.bage_review {
+    display: flex;
+    justify-content: center;
+}
+.bage_review h6 {
+    background: url(/assets/img/about2.png) no-repeat;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    padding-left: 4rem;
+}
+.review_head h1 {
+    font-size: 5.4rem;
+    line-height: 6.4rem;
+    font-weight: 800;
+}
+/*  */
+.card_area2 {
+    padding: 2rem;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 0.8rem .8rem 0 0;
+    border-bottom: 9px solid #5185FB;
+    background: white;
+}
+.card_area2 .card{
+    border: none;
+}
+.img_area img {
+    width: 7rem;
+    height: 7rem;
+}
+.img_head h5 {
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    font-weight: bold;
+}
+.img_head p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #515151;
+}
+.review_text p {
+    font-size: 1.6rem;
+    color: #515151;
+    line-height: 2.4rem;
+}
+
+/*  */
+.parent-box{
+    display: flex;
+}
+.box{
+    height: 300px;
+    margin: 10px;
+}
+.img_area img {
+    width: 6rem !important;
+}
+/* question */
+#question{
+    background: url(/assets/img/question\ bg.png) no-repeat;
+    width: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.question_left h6 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.question_left h2 {
+    font-size: 4.4rem;
+    line-height: 5.4rem;
+}
+.question_left p {
+    color: #515151;
+}
+.question_left button {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 1rem 3rem;
+}
+.button_color button{
+    background-color: #EFF5FF;
+}
+.accordion-button::after {
+    background-color: rgba(13, 110, 253,1);
+    border-radius: 50%;
+    color: beige;
+}
+/* foot area started */
+
+.top_right h4 {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+}
+.foot_bottom{
+    background: #000000;
+}
+.bottom_1 h4 {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+    font-weight: 800;
+}
+.bottom_1 p {
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    margin: 2rem 0;
+    width: 90%;
+}
+.bottom_1 i {
+    font-size: 3.4rem;
+    margin-right: 1.8rem;
+    color: #0D6EFD;
+}
+.bottom_2 h5 {
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    font-weight: 800;
+    color: white;
+}
+.bottom_2 ul li i{
+    margin-right: 1rem;
+
+}
+.bottom_2 ul li{
+    color: white;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+}
+hr {
+    border: 1px solid white;
+    margin: 3rem 0;
+}
+.bottom_contact {
+    background: white;
+    border-radius: 8px;
+    margin: 3rem;
+    margin-top: 1rem;
+}
+.bottom_contact .icon i {
+    color: #0D6EFD;
+    font-size: 3rem;
+    padding: 2rem;
+}
+.bottom_contact .text_area p {
+    color: #232323 !important;
+}
+.bottom_contact .text_area h6 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #232323 !important;
+}
+/* about section another file */
+.about_bg{
+    background: url(/assets/img/about\ bg.png) rgba(43, 101, 235, .8);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: multiply;
+}
+.about_bg h3 {
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    color: white;
+    text-align: center;
+    padding: 8rem;
+}
+/* single services another page*/
+/* Accurate area started */
+.Accurate_area h2 {
+    font-size: 4.4rem;
+    line-height: 5.4rem;
+    font-weight: 700;
+}
+.Accurate_area p{
+    color: #666666;
+}
+.Accurate_area button {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.single_area_form {
+    box-shadow: 0px 0px 1px 1px !important;
+}
+/* commited area started */
+.commited_area_right {
+    background: #E7E8F7;
+    height: 60rem;
+}
+.image_area_bottom h2 {
+    font-size: 4.4rem;
+    line-height: 5.4rem;
+    font-weight: 700;
+}
+.image_area_bottom p {
+    color: #515151;
+    margin: 3.9rem 0;
+}
+.image_area_bottom button {
+    width: 22rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+/* Roofing area startead */
+#Roofing{
+    background: url(/assets/img/roofing\ bg.png);
+}
+.roof_1 {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 3px solid #2B65EB;
+    border-radius: 5px;
+    width: 32rem;
+    padding-bottom: 4rem;
+    margin: 4.5rem 0;
+}
+.roof_1 img {
+    width: 7.3rem;
+    margin: 2.8rem;
+}
+.roof_1 h5 {
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.roof_1 p {
+    color: #515151;
+    text-align: center;
+}
+.roofing_1 h3 {
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    text-align: center;
+    font-weight: bold;
+}
+.roofing_button button {
+    width: 23rem;
+    margin: 3rem;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .btn_area button {
+        width: 151px !important;
+        margin: 5px;
+        width: 142px;
+        flex-wrap: wrap;
+    }
+    .head_bottom_right_2 .img_tar {
+        display: none !important;
+    }
+    .about_right button {
+        width: 35vmax !important;
+    }
+    .services_area p {
+        width: 100%;
+    }
+    .icon_area {
+        display: unset;
+    }
+    .logo_area {
+        font-size: 18px;
+    }
+    #Delivering .container h1 {
+        font-size: 35px;
+        font-weight: 800;
+    }
+    #Delivering .container p {
+        width: 97%;
+    }
+    .bottom_icon::before {
+        background: unset;
+    }
+    .process_area h1 {
+        font-size: 3.4rem;
+    }
+    .review_head h1 {
+        font-size: 4.4rem;
+    }
+}
+
+@media (max-width: 300px){
+    html{
+        font-size: 30%;
+    }
+    .img_1{
+        margin-left: 0;
+        width: 196px;
+    }
+    .img_1 span {
+        font-size: 12px;
+    }
+}
